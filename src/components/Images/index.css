@@ -1,0 +1,14 @@
+.lis {
+  width: 18%;
+  margin: 5px;
+  cursor: pointer;
+}
+.thumbNail {
+  width: 80%;
+}
+.imageBtn {
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}

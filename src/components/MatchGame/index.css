@@ -1,0 +1,124 @@
+.bg {
+  width: 100%;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #2c0e3a;
+  height: 10vh;
+  align-items: center;
+}
+.navList{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  list-style: none;
+}
+.gamelogo {
+  width: 20%;
+  margin-left: 20px;
+}
+.score-timer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.score {
+  color: #ffffff;
+  font-size: 20px;
+  margin-right: 30px;
+}
+.num {
+  color: #fec653;
+  font-size: 20px;
+}
+.timerCon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 20px;
+}
+.timerImg {
+  width: 30px;
+}
+.time {
+  color: #fec653;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.gameBg {
+  width: 100%;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.imageTobeMatched {
+  width: 70%;
+  margin-top: 15px;
+}
+.imageTobeMatchedCon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.TabsCon {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tabsListCon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  width: 70%;
+}
+
+.thumbnailsCon {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style: none;
+}
+.gameoverCard {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-lg-bg.png');
+  background-size: cover;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  margin-bottom: 30px;
+}
+.trophy {
+  width: 50%;
+  margin-top: 30px;
+}
+.wintext {
+  color: #ffffff;
+  font-size: 30px;
+}
+.payagainBtn {
+  display: flex;
+  align-items: center;
+  background-color: #cf60c8;
+  border: none;
+  border-radius: 8px;
+  padding: 6px;
+  cursor: pointer;
+}
+.resetlogo {
+  color: #ffffff;
+  width: 30px;
+}

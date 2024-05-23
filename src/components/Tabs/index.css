@@ -1,0 +1,17 @@
+.tab {
+  color: #ffffff;
+  font-size: 20px;
+  cursor: pointer;
+}
+.li {
+  color: #fec653;
+  border-bottom: 2px solid #fec653;
+  cursor: pointer;
+}
+.btnTab {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 20px;
+}
